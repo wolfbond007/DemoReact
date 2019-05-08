@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { Text, View } from 'react-native'
 
-class PersonalCenter extends Component {
+import { BaseComponent } from '../../components'
+
+class PersonalCenter extends BaseComponent {
 
   render () {
     const { isLogin } = this.props

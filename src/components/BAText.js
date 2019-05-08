@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Text } from 'react-native';
 
-class PHTText extends Component {
+class BAText extends Component {
 
   constructor(props, context) {
     super(props, context);
@@ -20,4 +20,4 @@ const styles = {
 
 }
 
-export default PHTText;
+export default BAText;
